@@ -4,15 +4,22 @@
 	
 	//buscamos el id del concurso ACTIVO
 	function leer ($con, $concurso) {
-		$sql = $res = $row = "";
+		$sql = $res = $row = $ret = ""; //ret definición variable control return
+
 		$sql = "SELECT orden FROM rotulos WHERE concurso = '$concurso' AND activo = 1";
 		if ($res = mysqli_query($con, $sql)){
 			if (mysqli_num_rows ($res) == 1){
 				$row = mysqli_fetch_array($res);
-				return $row[0];
-			}
-		}
-		return false;
+				$ret = $row[0]; //en caso de ok, devovemos un array
+			} else
+			$ret = "Error: no se han encontrado resultados";
+		} else
+			$ret = "Error: se ha producido un error en la consulta";
+		
+		if ($ret == "")
+			$ret = "Error: se ha producido un error";
+		
+		return $ret;
 	}
 	
 	//marcamos id del concurso como ACTIVO

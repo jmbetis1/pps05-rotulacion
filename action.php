@@ -1,4 +1,8 @@
 <?php
+	
+	//archivo con las acciones principales 
+	//que se ejecutarán mediante ajax
+
 	require_once '../../includes/config.inc.php'; 	//configuración
 	require_once ROOT.'func/funciones.inc.php'; 	//cargamos funciones generales
 	require_once 'action_funciones.php';
@@ -27,8 +31,10 @@
 		//recibimos ID del registro activo
 		$orden = leer($con, $concurso);
 		
-		//si no se recibe ID, marcamos el primero
-		if ($orden === false){
+		//en el caso de no recibir un array, es que recibimos un ERROR
+		if (!is_array($orden)) {
+			$msn = $orden." - ".__LINE__;
+			
 			if (escribir_primer_registro($con, $concurso) === false)
 				$msn = "Error escribir primer registro ".__LINE__;
 		
