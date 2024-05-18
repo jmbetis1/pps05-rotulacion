@@ -1,0 +1,142 @@
+	body {
+		font-family: "Century Gothic";
+		line-height: 1.5;
+	}
+	
+	.contenedor  {
+		max-width: 500px;
+		margin: 10px auto;
+		
+	}
+
+	.capa1 {
+		height: 70px;
+		border: solid 1px #666;
+		margin: 20px auto;
+		padding: 20px;
+		text-align: left;
+	}
+
+	.capa2 {
+		height: 20px;
+		border: solid 1px #666;
+		margin: 20px auto;
+		padding: 20px;
+		text-align: left;
+		font-size: 0.9rem;
+	}
+			
+	.bt {
+		font-size: 30px;
+		width: 100%;
+	}
+	
+	.botonera {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.capa_tabla {
+		width: 100%;
+		margin: 30px 0;
+		max-height: 300px; 
+		overflow-y: auto; 
+		padding: 5px;
+	}
+	
+	.tabla {
+		width: 100%;
+		font-size: 0.8rem;
+		cursor: pointer;
+		border-spacing: 0;
+		border: 0;
+		background-color: #ececec;
+	}
+	
+	.tabla tr:hover td {
+		background-color: #CCC;
+	}
+	
+	.tabla td {
+		padding: 7px 2px;
+	}
+	
+	.sel {
+		background-color: #8bffc9;
+	}
+	
+	.prueba {
+		font-size:0.9rem;	
+	}
+	
+	.ejemplar {
+		font-weight: bold;	
+	}
+	
+	.ganaderia {
+	}
+	
+	.jinete {
+		font-size: 0.9rem;
+		font-style: italic;
+		color: #999;
+	}
+	
+	.concursos {
+		width: 100%;
+		font-size: 1.1rem;
+		padding: 5px;
+		background-color: darkslategray;
+		color: #FFF;
+	}
+	
+	/* scrolling text */
+
+	.scroll-container {
+	  border: 1px solid black;
+	  overflow: hidden;
+	}
+
+	.scroll-text {
+		width:  max-content;
+		
+	  /* animation properties */
+	  -moz-transform: translateX(100%);
+	  -webkit-transform: translateX(100%);
+	  transform: translateX(100%);
+	  
+	  -moz-animation: my-animation 15s linear infinite;
+	  -webkit-animation: my-animation 15s linear infinite;
+	  animation: my-animation 15s linear infinite;
+	}
+
+	/* for Firefox */
+	@-moz-keyframes my-animation {
+	  from { -moz-transform: translateX(100%); }
+	  to { -moz-transform: translateX(-100%); }
+	}
+
+	/* for Chrome */
+	@-webkit-keyframes my-animation {
+	  from { -webkit-transform: translateX(100%); }
+	  to { -webkit-transform: translateX(-100%); }
+	}
+
+	@keyframes my-animation {
+	  from {
+	    -moz-transform: translateX(100%);
+	    -webkit-transform: translateX(100%);
+	    transform: translateX(100%);
+	  }
+	  to {
+	    -moz-transform: translateX(-100%);
+	    -webkit-transform: translateX(-100%);
+	    transform: translateX(-100%);
+	  }
+	}
+
+
+	/*ojos ocultar-mostrar*/
+	.ojos {
+		cursor: pointer;
+	}
