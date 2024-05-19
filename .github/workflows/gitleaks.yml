@@ -22,4 +22,4 @@ jobs:
 
     - name: Run Gitleaks
       run: |
-        gitleaks detect --source . --config=gitleaks.toml --verbose
+        gitleaks detect --source . --config=.gitleaks.toml --verbose
