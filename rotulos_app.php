@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Rótulos App</title>
+		<title>Rótulos APP Rotulación (ANCCE)</title>
 		<link rel="stylesheet" href="rotulos_app.css" />
 		<link rel="icon" type="image/x-icon" href="../../../img/favicon.ico">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
