@@ -1,0 +1,7 @@
+#para indicar archivos y directorios que dejamos fuera del traking de nuestro repositorio
+
+#ignorar archivos .log
+*.log
+
+#ignoramos archivos .clpprj (codelobster)
+*.clpprj
