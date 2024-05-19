@@ -1,0 +1,35 @@
+
+<codestructure version="2.1.0">
+<phptree>
+<treenode node="../../includes/config.inc.php;PHP:PHP Include;628552275;f15;5;44;5;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i0;;o;;k;;l;;n">
+</treenode>
+<treenode node="action_funciones.php;PHP:PHP Include;628552275;f15;7;35;7;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e0;;i0;;o;;k;;l;;n">
+</treenode>
+<treenode node="escribir;PHP:Function Name;2851991228;f1;25;2;41;;;;vpos;;v;;a;;r;;d41,25;;b0,0;;m0;;e0;;i0;;o;;k;;lcon;;pid;;pconcurso;;p;;x;;x;;x;;n">
+</treenode>
+<treenode node="escribir_primer_registro;PHP:Function Name;2851991228;f1;57;2;66;;;;vpos;;v;;a;;r;;d53,57;;b0,0;;m0;;e0;;i0;;o;;k;;lcon;;pconcurso;;p;;x;;x;;n">
+</treenode>
+<treenode node="leer;PHP:Function Name;2851991228;f1;5;2;22;;;;vpos;;v;;a;;r;;d33,5;;b0,0;;m0;;e0;;i0;;o;;k;;lcon;;pconcurso;;p;;x;;x;;n">
+</treenode>
+<treenode node="primer_registro;PHP:Function Name;2851991228;f1;44;2;54;;;;vpos;;v;;a;;r;;d43,44;;b0,0;;m0;;e0;;i0;;o;;k;;lcon;;pconcurso;;p;;x;;x;;n">
+</treenode>
+</phptree>
+<jstree>
+<treenode node="actualizar;JS:Function Name;879586374;f0;127;2;203;;;;vpos;;v;;aObject_;;c;;r;;d24,127;;b0,0;;m0;;e0;;i0;;o;;k;;l;;n">
+</treenode>
+<treenode node="cargar_concursos;JS:Function Name;879586374;f0;40;2;61;;;;vpos;;v;;aObject_;;c;;r;;d30,40;;b0,0;;m0;;e0;;i0;;o;;k;;l;;n">
+</treenode>
+<treenode node="marcar;JS:Function Name;879586374;f0;206;2;224;;;;vpos;;v;;aObject_;;c;;r;;d23,206;;b0,0;;m0;;e0;;i0;;o;;k;;lidm;;p;;x;;n">
+</treenode>
+<treenode node="restar;JS:Function Name;879586374;f0;78;2;99;;;;vpos;;v;;aObject_;;c;;r;;d20,78;;b0,0;;m0;;e0;;i0;;o;;k;;l;;n">
+</treenode>
+<treenode node="seleccionar_concurso;JS:Function Name;879586374;f0;65;2;75;;;;vpos;;v;;aObject_;;c;;r;;d33,65;;b0,0;;m0;;e0;;i0;;o;;k;;l;;n">
+</treenode>
+<treenode node="sumar;JS:Function Name;879586374;f0;103;2;123;;;;vpos;;v;;aObject_;;c;;r;;d19,103;;b0,0;;m0;;e0;;i0;;o;;k;;l;;n">
+</treenode>
+<treenode node="concurso;JS:JS Var Name;879586374;f5;1;13;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,3;;m0;;e0;;i0;;o;;k;;l;;n">
+</treenode>
+</jstree>
+<pythontree>
+</pythontree>
+</codestructure>
