@@ -5,3 +5,5 @@
 
 #ignoramos archivos .clpprj (codelobster)
 *.clpprj
+
+.env
